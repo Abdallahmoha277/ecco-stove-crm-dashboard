@@ -1,4 +1,3 @@
-````markdown
 # Data Cleaning
 
 This document describes the data cleaning and transformation process used to prepare the Ecco Stove CRM dataset for analysis.
@@ -35,7 +34,7 @@ This helped remove unnecessary spaces and improve consistency across records.
 
 For example:
 
-- `UK ` was standardized to `UK`
+- `UK ` and `United Kingdom` were standardized to `UK`
 - Inconsistent text formatting was normalized
 - Empty or missing values were preserved where appropriate for data-quality analysis
 
@@ -49,13 +48,10 @@ For example:
 United Kingdom
 UK
 UK 
-````
-
 were normalized to:
 
-```text
+Plaintext
 UK
-```
 
 This ensures that the same country is not treated as multiple categories in PivotTables and dashboard analysis.
 
