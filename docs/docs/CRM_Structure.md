@@ -25,8 +25,7 @@ Marketing_Campaigns
     │
     │ Campaign_ID
     ↓
-  Leads
-
+  Leads```
 Main CRM Tables
 Customers
 
